@@ -4,8 +4,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="x-apple-disable-message-reformatting" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark only" />
     <title>JBCP - 2022 Year Review</title>
-
     <style>
       h1,
       h2,
@@ -15,10 +16,12 @@
       h6 {
         line-height: 100%;
       }
+
       .spacer,
       .divider {
         mso-line-height-rule: exactly;
       }
+
       td,
       th,
       div,
@@ -27,6 +30,7 @@
         font-size: 13px;
         line-height: 22px;
       }
+
       td,
       th,
       div,
@@ -57,6 +61,7 @@
           font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont,
             "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif !important;
         }
+
         .webfont,
         .webfont a {
           font-family: "Lato", -apple-system, system-ui, BlinkMacSystemFont,
@@ -67,17 +72,20 @@
       a {
         text-decoration: none;
       }
+
       img {
         border: 0;
         line-height: 100%;
         max-width: 100%;
         vertical-align: middle;
       }
+
       #outlook a,
       .links-inherit-color a {
         padding: 0;
         color: inherit;
       }
+
       .col {
         font-size: 13px;
         line-height: 22px;
@@ -87,14 +95,17 @@
       .hover-scale {
         transition: all 0.3s ease-in-out 0s;
       }
+
       .hover-scale:hover {
         transform: scale(1.2);
       }
+
       .video {
         display: block;
         height: auto;
         object-fit: cover;
       }
+
       .star:hover a,
       .star:hover ~ .star a {
         color: #ffcf0f !important;
@@ -104,12 +115,15 @@
         .video {
           width: 100%;
         }
+
         img {
           height: auto !important;
         }
+
         u ~ div .wrapper {
           min-width: 100vw;
         }
+
         .container {
           width: 100% !important;
           -webkit-text-size-adjust: 100%;
@@ -117,36 +131,48 @@
       }
 
       @media only screen and (max-width: 480px) {
+        h2 {
+          font-size: 24px !important;
+        }
         .col {
           box-sizing: border-box;
           display: inline-block !important;
           line-height: 20px;
           width: 100% !important;
         }
+
         .col-sm-1 {
           max-width: 25%;
         }
+
         .col-sm-2 {
           max-width: 50%;
         }
+
         .col-sm-3 {
           max-width: 75%;
         }
+
         .col-sm-third {
           max-width: 33.33333%;
         }
+
         .col-sm-auto {
           width: auto !important;
         }
+
         .col-sm-push-1 {
           margin-left: 25%;
         }
+
         .col-sm-push-2 {
           margin-left: 50%;
         }
+
         .col-sm-push-3 {
           margin-left: 75%;
         }
+
         .col-sm-push-third {
           margin-left: 33.33333%;
         }
@@ -155,12 +181,15 @@
           display: table !important;
           width: 100% !important;
         }
+
         .stack-sm-first {
           display: table-header-group !important;
         }
+
         .stack-sm-last {
           display: table-footer-group !important;
         }
+
         .stack-sm-top {
           display: table-caption !important;
           max-width: 100%;
@@ -173,6 +202,7 @@
           line-height: inherit !important;
           max-height: none !important;
         }
+
         .hide-sm {
           display: none !important;
         }
@@ -182,10 +212,13 @@
           float: none;
           margin-left: auto !important;
           margin-right: auto !important;
+          text-align: center;
         }
+
         .align-sm-left {
           float: left;
         }
+
         .align-sm-right {
           float: right;
         }
@@ -193,9 +226,11 @@
         .text-sm-center {
           text-align: center !important;
         }
+
         .text-sm-left {
           text-align: left !important;
         }
+
         .text-sm-right {
           text-align: right !important;
         }
@@ -203,6 +238,7 @@
         .nav-sm-vertical .nav-item {
           display: block !important;
         }
+
         .nav-sm-vertical .nav-item a {
           display: inline-block;
           padding: 5px 0 !important;
@@ -211,9 +247,11 @@
         .h1 {
           font-size: 32px !important;
         }
+
         .h2 {
           font-size: 24px !important;
         }
+
         .h3 {
           font-size: 16px !important;
         }
@@ -221,12 +259,15 @@
         .borderless-sm {
           border: none !important;
         }
+
         .height-sm-auto {
           height: auto !important;
         }
+
         .line-height-sm-0 {
           line-height: 0 !important;
         }
+
         .overlay-sm-bg {
           background: #232323;
           background: rgba(0, 0, 0, 0.4);
@@ -236,6 +277,7 @@
           display: inline-block !important;
           padding: 0 10px !important;
         }
+
         u ~ div .wrapper .nav-sm-vertical .nav-item {
           display: block !important;
         }
@@ -243,112 +285,143 @@
         .p-sm-0 {
           padding: 0 !important;
         }
+
         .p-sm-8 {
           padding: 8px !important;
         }
+
         .p-sm-16 {
           padding: 16px !important;
         }
+
         .p-sm-24 {
           padding: 24px !important;
         }
+
         .pt-sm-0 {
           padding-top: 0 !important;
         }
+
         .pt-sm-8 {
           padding-top: 8px !important;
         }
+
         .pt-sm-16 {
           padding-top: 16px !important;
         }
+
         .pt-sm-24 {
           padding-top: 24px !important;
         }
+
         .pr-sm-0 {
           padding-right: 0 !important;
         }
+
         .pr-sm-8 {
           padding-right: 8px !important;
         }
+
         .pr-sm-16 {
           padding-right: 16px !important;
         }
+
         .pr-sm-24 {
           padding-right: 24px !important;
         }
+
         .pb-sm-0 {
           padding-bottom: 0 !important;
         }
+
         .pb-sm-8 {
           padding-bottom: 8px !important;
         }
+
         .pb-sm-16 {
           padding-bottom: 16px !important;
         }
+
         .pb-sm-24 {
           padding-bottom: 24px !important;
         }
+
         .pl-sm-0 {
           padding-left: 0 !important;
         }
+
         .pl-sm-8 {
           padding-left: 8px !important;
         }
+
         .pl-sm-16 {
           padding-left: 16px !important;
         }
+
         .pl-sm-24 {
           padding-left: 24px !important;
         }
+
         .px-sm-0 {
           padding-right: 0 !important;
           padding-left: 0 !important;
         }
+
         .px-sm-8 {
           padding-right: 8px !important;
           padding-left: 8px !important;
         }
+
         .px-sm-16 {
           padding-right: 16px !important;
           padding-left: 16px !important;
         }
+
         .px-sm-24 {
           padding-right: 24px !important;
           padding-left: 24px !important;
         }
+
         .py-sm-0 {
           padding-top: 0 !important;
           padding-bottom: 0 !important;
         }
+
         .py-sm-8 {
           padding-top: 8px !important;
           padding-bottom: 8px !important;
         }
+
         .py-sm-16 {
           padding-top: 16px !important;
           padding-bottom: 16px !important;
         }
+
         .py-sm-24 {
           padding-top: 24px !important;
           padding-bottom: 24px !important;
         }
       }
+
       .section-1-paragraph {
         line-height: 1.5;
       }
+
       .section-title {
-        color: #e20f6e;
+        color: #d61e8a;
         font-size: 32px;
         font-weight: 500;
         margin: 0 0 20px;
         line-height: 1.2;
       }
+
       .section-paragraph {
         color: #3b3b3b;
         font-size: 18px;
         margin: 0;
         line-height: 1.5;
       }
+
       .section-list {
         color: #565656;
         font-size: 18px;
@@ -399,16 +472,11 @@
                 <tr>
                   <td
                     class="px-sm-8"
+                    style="padding: 10px 0"
                     align="left"
-                    bgcolor="#E20F6E"
+                    bgcolor="#e20e6f"
                     data-bgcolor="Inner"
                   >
-                    <div
-                      class="spacer line-height-sm-0 py-sm-8"
-                      style="line-height: 24px"
-                    >
-                      ‌
-                    </div>
                     <table
                       cellpadding="0"
                       cellspacing="0"
@@ -418,7 +486,7 @@
                       <tbody>
                         <tr>
                           <td class="col" align="center" width="100%">
-                            <div mc:edit="">
+                            <div>
                               <img
                                 src="https://lh3.googleusercontent.com/pw/AMWts8Df8YxrpcJFuqOf-r-DaGkYhL4rb7GvCixSDBWI_xeBtbMwFyMd7tTNxQYYJL7U9C0wHcbgqRHQ4CSkqXHCEF447TAUAaMhNNHkGpW8LSMs7iF6-1TmlbYesTk8MFboa1R0EjLKoWpEnw2lQIN3_4b7=w1240-h643-no?authuser=0"
                                 alt="Header Logo"
@@ -426,223 +494,6 @@
                                 data-crop="false"
                               />
                             </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div
-                      class="spacer line-height-sm-0 py-sm-8"
-                      style="line-height: 24px"
-                    >
-                      ‌
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table
-      class="wrapper"
-      cellpadding="0"
-      cellspacing="0"
-      role="presentation"
-      width="100%"
-    >
-      <tbody>
-        <tr>
-          <td
-            class="px-sm-16"
-            align="center"
-            bgcolor="#EEEEEE"
-            data-bgcolor="Outer"
-          >
-            <table
-              class="container"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="600"
-            >
-              <tbody>
-                <tr>
-                  <td
-                    style="
-                      background-image: url(https://lh3.googleusercontent.com/pw/AMWts8AX2_GW3b6j6GxKiHZf_WKO5tDrPIqtgnKktVwr2hgIP7-NTaWRDspovXtaaoJHqjC5Vk09GWdmvhu3y-_6IhW6GmXE1iF5qXR1z75oJmr8v_NoCHaYZMf9bs9JpUlKaeXl2Z3Hwj9PIxsr26HteSOG=w1240-h727-no?authuser=0);
-                      background-repeat: no-repeat;
-                      background-position: center;
-                      background-size: cover;
-                    "
-                    data-bgcolor="#EB1E77"
-                    data-bg="HERO Image"
-                  >
-                    <!--[if gte mso 9]>
-            <v:image src="https://lh3.googleusercontent.com/pw/AMWts8AX2_GW3b6j6GxKiHZf_WKO5tDrPIqtgnKktVwr2hgIP7-NTaWRDspovXtaaoJHqjC5Vk09GWdmvhu3y-_6IhW6GmXE1iF5qXR1z75oJmr8v_NoCHaYZMf9bs9JpUlKaeXl2Z3Hwj9PIxsr26HteSOG=w1240-h727-no?authuser=0" xmlns:v="urn:schemas-microsoft-com:vml" style="width:600px;height:500px;" ></v:image>
-            <v:rect fill="false" stroke="false" style="position:absolute;width:600px;height:500px;">
-            <div><![endif]-->
-                    <div
-                      class="spacer line-height-sm-0 py-sm-8"
-                      style="line-height: 48px"
-                    >
-                      ‌
-                    </div>
-                    <table
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      width="100%"
-                    >
-                      <tbody>
-                        <tr>
-                          <td
-                            align="center"
-                            class="px-sm-16"
-                            style="padding: 0 24px"
-                          >
-                            <h2
-                              mc:edit=""
-                              class="webfont h1 pb-sm-8"
-                              style="
-                                color: #ffffff;
-                                font-size: 52px;
-                                font-weight: 500;
-                                margin: 0 0 20px;
-                              "
-                              data-color="Text Line 1"
-                              data-size="Text Line 1"
-                            >
-                              Jordan Breast Cancer Program (JBCP)
-                              <br />
-                              2022 Year in Review
-                              <span
-                                style="display: inline-block; font-weight: 300"
-                              ></span>
-                            </h2>
-
-                            <div
-                              class="spacer line-height-sm-0 py-sm-8"
-                              style="line-height: 48px"
-                            >
-                              ‌
-                            </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                    <!--[if gte mso 9]></div></v:rect><![endif]-->
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table
-      class="wrapper"
-      cellpadding="0"
-      cellspacing="0"
-      role="presentation"
-      width="100%"
-    >
-      <tbody>
-        <tr>
-          <td
-            class="px-sm-16"
-            align="center"
-            bgcolor="#EEEEEE"
-            data-bgcolor="Outer"
-          >
-            <table
-              class="container"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="600"
-            >
-              <tbody>
-                <tr>
-                  <td
-                    style="
-                      background-image: url(https://lh3.googleusercontent.com/pw/AMWts8DFYbh_uYOwpxZKK65jPCy_yqLVIsCbZDXbXwN84O1ms4RELGV7LK6RCN31Bb1dPujqMlLZ8T_rnFEb1pW1EjXPly4uL5sV_y6uDlxGeir9JH-pmj4UBP9eqd-M74h5BBXQZkgjj8ywUtKuR1tpBgD3=w1240-h620-no?authuser=0);
-                      background-repeat: no-repeat;
-                      background-position: center;
-                      background-size: cover;
-                      padding: 48px 24px;
-                    "
-                    data-bgcolor="Inner"
-                  >
-                    <table
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      width="100%"
-                    >
-                      <tbody>
-                        <tr>
-                          <td align="center">
-                            <h2
-                              mc:edit=""
-                              class="section-1-paragraph"
-                              style="
-                                color: #ffffff;
-                                font-size: 24px;
-                                font-weight: 300;
-                                margin: 0;
-                              "
-                              data-color="Title"
-                              data-size="Title"
-                            >
-                              2022 was a great year at all levels, where we were
-                              able to continue serving women across Jordan and
-                              contributing to saving lives.
-                            </h2>
-                            <h2
-                              mc:edit=""
-                              class="section-1-paragraph"
-                              style="
-                                color: #ffffff;
-                                font-size: 24px;
-                                font-weight: 300;
-                                margin: 0 0 32px;
-                              "
-                              data-color="Title"
-                              data-size="Title"
-                            >
-                              In this e-newsletter we are sharing with you a
-                              glimpse of 2022 achievements.
-                            </h2>
-                            <h2
-                              mc:edit=""
-                              class="section-1-paragraph"
-                              style="
-                                color: #ffffff;
-                                font-size: 30px;
-                                font-weight: 500;
-                                margin: 0 0 16px;
-                              "
-                              data-color="Title"
-                              data-size="Title"
-                            >
-                              Thank you for being part of our journey!
-                            </h2>
-                            <h2
-                              mc:edit=""
-                              class="section-1-paragraph"
-                              style="
-                                color: #ffffff;
-                                font-size: 24px;
-                                font-weight: 400;
-                                margin: 0 0 10px;
-                              "
-                              data-color="Title"
-                              data-size="Title"
-                            >
-                              The Jordan Breast Cancer Program Team
-                            </h2>
                           </td>
                         </tr>
                       </tbody>
@@ -708,9 +559,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -730,15 +578,14 @@
               <tbody>
                 <tr>
                   <td
-                    style="padding: 48px 24px"
+                    style="padding: 48px 24px 24px"
                     align="left"
                     bgcolor="#FFFFFF"
                     data-bgcolor="Inner"
                   >
                     <h2
                       style="
-                        
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         margin: 0 0 20px;
@@ -748,28 +595,25 @@
                       1. Service Delivery of Breast Cancer Screening and Early
                       Detection
                     </h2>
-
                     <p
                       class="section-paragraph"
                       data-color="Quote Text"
                       data-size="Quote Text"
                     >
-                      <span style="font-weight:700">In 2022</span>, Jordan Breast Cancer Program continued to develop
-                      and support infrastructure and quality upgrade for early
+                      <span style="font-weight: 700">In 2022</span>, the Jordan
+                      Breast Cancer Program (JBCP) continued to develop and
+                      support infrastructure and quality upgrade for early
                       detection of breast cancer services across all sectors to
                       ensure better availability and accessibility to high
-                      quality early detection services across Jordan. This
-                      includes renovation, equipment donation, training of
-                      cadres, preparation for accreditation, and workflow
-                      enhancement support. Also, JBCP has worked on building the
-                      capacities of the healthcare providers (HCP) involved in
-                      the process of breast cancer screening and early
-                      detection, in addition to technical and quality control
-                      training for the radiographers in order to produce high
-                      quality images that will contribute to delivering improved
-                      breast cancer screening and early detection services. More
-                      details are mentioned below.
+                      quality early detection services across Jordan. In total,
                     </p>
+                    <div>
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8A5qqzAR5-AGQ6QtTfVlZjiua0YaUqBUQi1q6pLA0DWytX-SpTtv5WlFt7vu6g3VlNT6iCsuXnyRI4AwOjGzf3RZcQPC4jgFD6_raktmBuW2-7k0AtlV4Ceq9o7p4p04NIdxoHYUAiJeHmjaTjsuz1a=w601-h721-s-no?authuser=0"
+                        alt="zoom meeting"
+                        width="80%"
+                      />
+                    </div>
                   </td>
                 </tr>
               </tbody>
@@ -784,9 +628,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -814,7 +655,7 @@
                     <h2
                       style="
                         margin: 0 0 25px;
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         line-height: 1.2;
@@ -825,7 +666,7 @@
                     </h2>
                     <h2
                       style="
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 22px;
                         font-weight: 400;
                         line-height: 1.2;
@@ -840,18 +681,23 @@
                       data-color="Quote Text"
                       data-size="Quote Text"
                     >
-                      <span style="font-weight:700">14</span> breast imaging units were supported for infrastructure
-                      upgrade or quality improvement, <span style="font-weight:700">seven</span> new units met all
-                      accreditation standards and will get the certification
+                      <span style="font-weight: 700">14</span> breast imaging
+                      units were supported for infrastructure upgrade or quality
+                      improvement,
+                      <span style="font-weight: 700">seven</span> new units met
+                      all accreditation standards and will get the certification
                       from the HCAC. These are: Al-Basheer Hospital, Princess
                       Raya Hospital, Al-Salt Hospital, Al-Kindi Hospital, Al
                       Hayat Hospital, Royal Hospital, Dr. Rasha Sheikh Clinic
                     </p>
-                    <ol  
-                    style="margin: 0 0 30px;
-                    color: #565656;
-                    font-size: 18px;
-                    line-height: 1.5;">
+                    <ol
+                      style="
+                        margin: 0 0 30px;
+                        color: #565656;
+                        font-size: 18px;
+                        line-height: 1.5;
+                      "
+                    >
                       <li>Al Bashier Hospital</li>
                       <li>Raya Hospital</li>
                       <li>Al Salt Hospital</li>
@@ -869,7 +715,7 @@
                     </ol>
                     <h2
                       style="
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 22px;
                         font-weight: 400;
                         line-height: 1.2;
@@ -878,10 +724,14 @@
                     >
                       BIUs attained the HCAC breast imaging certification:
                     </h2>
-                    <ol style="color: #565656;
+                    <ol
+                      style="
+                        color: #565656;
                         font-size: 18px;
                         margin: 0;
-                        line-height: 1.5;">
+                        line-height: 1.5;
+                      "
+                    >
                       <li>Al Bashier Hospital</li>
                       <li>Raya Hospital</li>
                       <li>Al Salt Hospital</li>
@@ -904,9 +754,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -934,7 +781,7 @@
                     <h2
                       style="
                         margin: 0 0 25px;
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         line-height: 1.2;
@@ -942,69 +789,13 @@
                     >
                       1,146 Healthcare provider attended our training workshops
                     </h2>
-
-                    <ol style="color: #565656;
-                        font-size: 18px;
-                        margin: 0;
-                        line-height: 1.5;">
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >Eight</span
-                        >
-                        Breast cancer, breast feeding and family planning
-                        workshops
-                      </li>
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >Eight</span
-                        >
-                        On-site quality control training
-                      </li>
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >One-month
-                        </span>
-                        Practical training at KHCC, RMS, and onsite training
-                      </li>
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >One-month</span
-                        >
-                        Observer ship program for breast imaging
-                      </li>
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >One</span
-                        >
-                        Breast U/S hands-on training conducted by KHCC
-                      </li>
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >One</span
-                        >
-                        Advocacy Session for Making Screening More Accessible
-                        and Affordable in South Jordan
-                      </li>
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >Three</span
-                        >
-                        Training workshops for radiographers about TOT, Clinical
-                        audit and quality management.
-                      </li>
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >Four</span
-                        >
-                        Scientific sessions
-                      </li>
-                      <li>
-                        <span style="color: #e20f6e; font-weight: 500"
-                          >Eight</span
-                        >
-                        Multidisciplinary Workshops 2022
-                      </li>
-                    </ol>
+                    <div align="center">
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8B9eijfxGbs1qtZSvndR_x55nifMfbI8Ab-XY9QAIEMVciMBjZuQFMwZgP3hWC2d8ZLRHTwtqViUsQBtggd0a6cq_98HPavJ49CCPiqOC1S4OVclrSHr46GltaD_W7nHxeOuAs8Ac_Ha7Lw9zjbn8mN=w988-h589-s-no?authuser=0"
+                        alt="infographics"
+                        width="100%"
+                      />
+                    </div>
                   </td>
                 </tr>
               </tbody>
@@ -1019,9 +810,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -1049,7 +837,7 @@
                     <h2
                       style="
                         margin: 0 0 25px;
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         line-height: 1.2;
@@ -1067,7 +855,9 @@
                       Breast Imaging from August 15th-18th, hosting world
                       renowned speakers: (Dr.Beth Dupree, Dr.Michael J.Ulisseey,
                       Dr.Pamela M Otto, Dr.Bruce Porter, Dr.Michael N.Linver ,
-                      Dr.Thomas Stavros) and <span style="font-weight:700">700</span> Health Care Providers attended.
+                      Dr.Thomas Stavros) and
+                      <span style="font-weight: 700">700</span> Health Care
+                      Providers attended.
                     </p>
                     <div align="center">
                       <img
@@ -1079,7 +869,7 @@
                     <p
                       style="
                         margin: 20px 0 5px;
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 22px;
                         font-weight: 400;
                         line-height: 1.2;
@@ -1087,17 +877,21 @@
                     >
                       The sessions given are:
                     </p>
-                    <ul style="color: #565656;
+                    <ul
+                      style="
+                        color: #565656;
                         font-size: 18px;
                         margin: 0 0 30px;
-                        line-height: 1.5;"> 
+                        line-height: 1.5;
+                      "
+                    >
                       <li>
                         Advances in the Surgical and Oncological Treatment of
                         Breast Cancer
                       </li>
                       <li>
                         Approach to a Mammogram, The Argument for Screening
-                        Ultrasound
+                        Ultrasound.
                       </li>
                       <li>
                         Digital Breast Tomosynthesis in Screening and Diagnosis
@@ -1113,6 +907,64 @@
                       <li>
                         Ultrasound of Solid Breast Masses - How to Find the
                         Border Between BiRads-3 and BiRads 4A.
+                      </li>
+                    </ul>
+                    <p
+                      style="
+                        margin: 20px 0 5px;
+                        color: #d61e8a;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 1.2;
+                      "
+                    >
+                      View the sessions:
+                    </p>
+                    <ul
+                      style="
+                        color: #d61e8a;
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin: 0 0 30px;
+                        line-height: 1.5;
+                        padding: 0 30px;
+                      "
+                    >
+                      <li>
+                        <a
+                          href="https://www.youtube.com/watch?v=OVFGeVgJxe8"
+                          style="color: #d61e8a; text-decoration: underline"
+                          >Approach to Mammogram Beyond the Basics
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.youtube.com/watch?v=WzgpTKjL14g"
+                          style="color: #d61e8a; text-decoration: underline"
+                          >Using Ultrasound to Stage Breast Cancer when MRI is
+                          Not Available
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.youtube.com/watch?v=SqUjbavSzrc"
+                          style="color: #d61e8a; text-decoration: underline"
+                          >Ultrasound of Breast Cysts that Are Not Simple
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.youtube.com/watch?v=C7Zys-7xG9E"
+                          style="color: #d61e8a; text-decoration: underline"
+                          >Mammography in the Screening and Diagnostic Settings
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.youtube.com/watch?v=_MzY9B1zvVo"
+                          style="color: #d61e8a; text-decoration: underline"
+                          >Basic Breast MRI Interpretation
+                        </a>
                       </li>
                     </ul>
                     <div align="center">
@@ -1136,9 +988,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -1166,7 +1015,7 @@
                     <h2
                       style="
                         margin: 0 0 25px;
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         line-height: 1.2;
@@ -1180,19 +1029,23 @@
                       data-color="Quote Text"
                       data-size="Quote Text"
                     >
-                      JBCP has two Mobile Mammography Units (MMU) that are
-                      allocated at different places across Jordan in order to
-                      provide screening services to under-served and
-                      under-privileged women. Last year, <span style="font-weight:700">3,788</span> women were
-                      screened through the mobile units in three governorates;
-                      Zarqa, Balqa (Der Alla), and Irbid.
+                      JBCP has two mobile mammography units (MMU) across Jordan
+                      to provide screening services to under-served and
+                      under-privileged women. In 2022,
+                      <span style="font-weight: 700">3,788</span> women were
+                      screened in Zarqa, Balqa (Der Alla), and Irbid.
                     </p>
+
                     <div align="center">
-                      <img
-                        src="https://lh3.googleusercontent.com/pw/AMWts8BiA2GSLT4u7DRW4S_uTWYpu9PGhWzSp60q1XU_dJEVgb31OvN6Uv2eVPMDSItWKf4QGawlcKcFSK9v-lS-kGyDSY3aeYFi6alr9bDM9jMh_dvZ1hAJUIcwVqExdkOr6U1GofcgBGBc68DjIhVEk0XI=w1240-h727-no?authuser=0"
-                        alt="zoom meeting"
-                        width="100%"
-                      />
+                      <a
+                        href="https://www.facebook.com/JordanBreastCancerProgram/videos/827953608262532"
+                      >
+                        <img
+                          src="https://lh3.googleusercontent.com/pw/AMWts8AEFElzLM7YEezREChDzKjXH5z1xaVFfwrIeKEieKd8Vkazuv6xaFsvhcNlNmDlSFjPu6BeqgPwMLC5ELstmHSbmA13T-wBccMQBlvJvLMVGOmxpV06MGSp6GNbtSMIpzbOLfGQuV7Xe5mKp0aTffAp=w1240-h727-s-no?authuser=0"
+                          alt="zoom meeting"
+                          width="100%"
+                        />
+                      </a>
                     </div>
                   </td>
                 </tr>
@@ -1208,9 +1061,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Navigation Basic Center"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/nav-basic-center.png"
     >
       <tbody>
         <tr>
@@ -1230,48 +1080,6 @@
               <tbody>
                 <tr>
                   <td
-                    class="col px-sm-8"
-                    align="center"
-                    bgcolor="#FFFFFF"
-                    style="padding: 0 24px"
-                    data-bgcolor="Inner"
-                  ></td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table
-      class="wrapper"
-      cellpadding="0"
-      cellspacing="0"
-      role="presentation"
-      width="100%"
-      data-module="Demo Masonry Grid With Captions"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/masonry-grid-captions.jpg"
-    >
-      <tbody>
-        <tr>
-          <td
-            class="px-sm-16"
-            align="center"
-            bgcolor="#EEEEEE"
-            data-bgcolor="Outer"
-          >
-            <table
-              class="container"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="600"
-            >
-              <tbody>
-                <tr>
-                  <td
-                    class="px-sm-8"
                     align="left"
                     bgcolor="#E9E9E9"
                     style="padding: 24px"
@@ -1284,7 +1092,7 @@
                       <h2
                         style="
                           margin: 0 0 25px;
-                          color: #e20f6e;
+                          color: #d61e8a;
                           font-size: 30px;
                           font-weight: 500;
                           line-height: 1.2;
@@ -1294,7 +1102,7 @@
                       </h2>
                       <h2
                         style="
-                          color: #e20f6e;
+                          color: #d61e8a;
                           font-size: 22px;
                           font-weight: 400;
                           line-height: 1.2;
@@ -1309,16 +1117,37 @@
                         data-color="Quote Text"
                         data-size="Quote Text"
                       >
-                        As part of the Jordan Breast Cancer Program (JBCP)
-                        accountability towards developing and improving the
-                        quality of early detection services for early detection,
-                        and under the leadership of the King Hussein Cancer
-                        Center (KHCC), a National Committee of experts was
-                        formed to review and develop national guidelines for
-                        Breast Cancer Screening and Diagnosis. Several meetings
-                        were held, and the updated guidelines are expected to be
-                        issued by Feb 2023.
+                        As part of JBCP’s accountability to develop and improve
+                        the quality of early detection services and under the
+                        leadership of the King Hussein Cancer Center (KHCC), a
+                        national committee of experts was formed to review and
+                        develop national guidelines for Breast Cancer Screening
+                        and Diagnosis. Eight meetings were held in 2022, and the
+                        updated breast cancer guidelines are expected to be
+                        issued by February 2023.
                       </p>
+                      <ul
+                        style="
+                          color: #d61e8a;
+                          font-size: 18px;
+                          font-weight: 500;
+                          margin: 0 0 30px;
+                          line-height: 1.5;
+                          padding: 0 30px;
+                        "
+                      >
+                        <li>
+                          <a
+                            href="https://www.jbcp.jo/screening-2019.pdf  "
+                            style="
+                              color: #d61e8a;
+                              text-decoration: underline;
+                              font-size: 18px;
+                            "
+                            >Download PDF</a
+                          >
+                        </li>
+                      </ul>
                     </div>
                     <table
                       cellpadding="0"
@@ -1330,7 +1159,7 @@
                         <tr>
                           <td class="col pb-sm-16" width="260">
                             <div class="align-sm-center">
-                              <div mc:edit="" style="padding: 0 0 0 16px">
+                              <div style="padding: 0 0 0 16px">
                                 <img
                                   src="https://lh3.googleusercontent.com/pw/AMWts8B2zuqQEG3bBjv0eDQEeF92qoCOaKnSpnaIhVAF5OaloZccFX6Qdp9kN6iRqdCkUV8XSV35cvfjK_RbvdLNpZDqZQ3cwmz8QerT9RPL9NzRDU8N5NZqqS_3kO1JQJfffQWO9Gv4O_lJsYiFMY6VKwgJ=w825-h550-s-no?authuser=0"
                                   alt="Wallpaper iOS App"
@@ -1341,7 +1170,7 @@
                               <div class="spacer" style="line-height: 10px">
                                 ‌
                               </div>
-                              <p mc:edit="" style="margin: 0">
+                              <p style="margin: 0">
                                 <a
                                   href="https://example.com"
                                   style="
@@ -1354,7 +1183,6 @@
                                 ></a>
                               </p>
                               <p
-                                mc:edit=""
                                 style="
                                   color: #888888;
                                   font-size: 11px;
@@ -1369,7 +1197,7 @@
                               ‌
                             </div>
                             <div class="align-sm-center">
-                              <div mc:edit="" style="padding: 0 0 0 8px">
+                              <div style="padding: 0 0 0 8px">
                                 <img
                                   src="https://lh3.googleusercontent.com/pw/AMWts8BSqHmg4dDj2RnT4DmLmgI-xBVz3yuYeJ1SwvWA4Fvo9BAafIIf9xb14FeuoE2feZRbTLb63BiXJLCTq0ogn1CgmAL2JmlAG2wyIF6rjQ3AlYiQObXossqxIAK6jyA7qx25KFr4Zx8gkhdfpOvbCuBF=w855-h570-s-no?authuser=0"
                                   alt="Running App"
@@ -1377,8 +1205,7 @@
                                   data-crop="false"
                                 />
                               </div>
-                              
-                              <p mc:edit="" style="margin: 0">
+                              <p style="margin: 0">
                                 <a
                                   href="https://example.com"
                                   style="
@@ -1391,7 +1218,6 @@
                                 ></a>
                               </p>
                               <p
-                                mc:edit=""
                                 style="
                                   color: #888888;
                                   font-size: 11px;
@@ -1408,7 +1234,7 @@
                               <div class="spacer" style="line-height: 32px">
                                 ‌
                               </div>
-                              <div mc:edit="" style="padding: 0 0 0 16px">
+                              <div style="padding: 0 0 0 16px">
                                 <img
                                   src="https://lh3.googleusercontent.com/pw/AMWts8D-IcB55RGJhrWU74gfb1DIb1ptUd1Y2fRTDyeiG4CThCsFlojaFIXIZyLZUwthNymh1ehxwGjvt_sTVNBtN6PtdWRI-h0a1ex9K0OVlQUZiq5GpyFTQecc1w5zdqbCUn0prNGsJTXBOMHAvxTh8xgL=w801-h534-s-no?authuser=0"
                                   alt="Hipster Photoshoot"
@@ -1419,7 +1245,7 @@
                               <div class="spacer" style="line-height: 10px">
                                 ‌
                               </div>
-                              <p mc:edit="" style="margin: 0">
+                              <p style="margin: 0">
                                 <a
                                   href="https://example.com"
                                   style="
@@ -1432,7 +1258,6 @@
                                 ></a>
                               </p>
                               <p
-                                mc:edit=""
                                 style="
                                   color: #888888;
                                   font-size: 11px;
@@ -1447,7 +1272,7 @@
                               ‌
                             </div>
                             <div class="align-sm-center">
-                              <div mc:edit="" style="padding: 0 0 0 8px">
+                              <div style="padding: 0 0 0 8px">
                                 <img
                                   src="https://lh3.googleusercontent.com/pw/AMWts8CnY4KMrkWn2H9DOqPQS3z31HtrbsrMIUdNUCNiDz-nLQ-jeNk7Vo9KX8zzI-__Kh8QIQWGIa5LXEUBA_7QZXDWH6ieUAxRmOC5k8sdPteYZ6o1LgheV2baUdOdf_XldgCHs3bbbmnha8hMqnNhjuJu=w888-h592-s-no?authuser=0"
                                   alt="Street Photography"
@@ -1458,7 +1283,7 @@
                               <div class="spacer" style="line-height: 10px">
                                 ‌
                               </div>
-                              <p mc:edit="" style="margin: 0">
+                              <p style="margin: 0">
                                 <a
                                   href="https://example.com"
                                   style="
@@ -1471,7 +1296,6 @@
                                 ></a>
                               </p>
                               <p
-                                mc:edit=""
                                 style="
                                   color: #888888;
                                   font-size: 11px;
@@ -1500,9 +1324,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -1522,41 +1343,38 @@
               <tbody>
                 <tr>
                   <td
-                    style="padding: 48px 24px"
+                    style="padding: 24px"
                     align="left"
                     bgcolor="#FFFFFF"
                     data-bgcolor="Inner"
                   >
                     <h2
                       style="
-                        
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 26px;
                         font-weight: 500;
                         margin: 0 0 20px;
                         line-height: 1.2;
                       "
                     >
-                      Success Story: Collaboration with Al-Bashir Breast Imaging
-                      Unit to Be an Integrated High-Quality Unit
+                      Al-Bashir Breast Imaging Unit to Be an Integrated
+                      High-Quality Unit
                     </h2>
-
                     <p
                       class="section-paragraph"
                       data-color="Quote Text"
                       data-size="Quote Text"
                     >
-                      The program has worked closely with Al-Basheer hospital on
-                      preparing the breast imaging unit as an integrated unit of
-                      high-quality services as it is considered the main
-                      referral hospital for the Ministry of Health. That
-                      included two female doctors undergoing a fellowship for a
-                      one year at the King Hussein Cancer Center, providing
-                      other necessary training for all working cadres, applying
-                      accreditation standards to ensure the quality-of-service
-                      collaboration with the HCAC, and providing the unit with
-                      the necessary devices and equipment to provide services
-                      appropriately.
+                      JBCP worked closely with Al-Basheer Hospital, the main
+                      referral hospital for the Ministry of Health (MOH), to
+                      improve its breast imaging unit so that it can serve as an
+                      integrated unit and deliver high-quality services. As part
+                      of the improvements, two female doctors partook in a
+                      one-year fellowship at KHCC, three trainings were provided
+                      for all working cadres, and the unit was outfitted with
+                      the necessary devices and equipment to ensure compliance
+                      with the accreditation standards of HCAC and
+                      quality-of-service collaboration.
                     </p>
                   </td>
                 </tr>
@@ -1566,16 +1384,12 @@
         </tr>
       </tbody>
     </table>
-
     <table
       class="wrapper"
       cellpadding="0"
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -1595,15 +1409,14 @@
               <tbody>
                 <tr>
                   <td
-                    style="padding: 48px 24px"
+                    style="padding: 24px"
                     align="left"
                     bgcolor="#E9E9E9"
                     data-bgcolor="Inner"
                   >
                     <h2
                       style="
-                        
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         margin: 0 0 20px;
@@ -1613,26 +1426,17 @@
                       2. Awareness and Social Behavioral Change Communication to
                       Improve Demand on Breast Cancer Early Detection.
                     </h2>
-
                     <p
                       class="section-paragraph"
                       data-color="Quote Text"
                       data-size="Quote Text"
                     >
-                      JBCP under this pillar focuses on building a strong and
-                      well-educated community that voice JBCP’s message of the
-                      importance of breast cancer screening and early detection.
-                      In order to alter behaviors, it is vital to have access to
-                      the community through several tactics and work on raising
-                      awareness and creating behavioral change through the
-                      Social Behavioral Change Communication (SBCC) model we
-                      adopt.
-                      <br />
-                      In order to channel JBCP’s message through the community,
-                      it is necessary to build advocates from within. Change
-                      induction is initiated by integrating the at the level of
-                      the community while so provision of the service in order
-                      to meet the increase in screening service demand.
+                      JBCP aims to build a strong and well-educated community
+                      who acknowledge the importance of breast cancer screening
+                      and early detection through a social and behavioral change
+                      communication (SBCC) model. The SBCC model fosters
+                      advocates to channel JBCP’s message throughout the
+                      community and promote change from within.
                     </p>
                   </td>
                 </tr>
@@ -1648,9 +1452,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -1670,516 +1471,50 @@
               <tbody>
                 <tr>
                   <td
-                    style="padding: 48px 24px 0"
-                    align="left"
-                    bgcolor="#FFFFFF"
-                    data-bgcolor="Inner"
-                  >
-                    <h2
-                      style="
-                        
-                        color: #e20f6e;
-                        font-size: 30px;
-                        font-weight: 500;
-                        margin: 0 0 20px;
-                        line-height: 1.2;
-                      "
-                    >
-                      2.1 Mobilizing Community to Advocate for Breast Cancer Early Detection Across Jordan
-                    </h2>
-
-                    <p
-                      class="section-paragraph"
-                      data-color="Quote Text"
-                      data-size="Quote Text"
-                    >
-                      <span style="font-weight:700">185,000</span> women reached and educated through the outreach 
-                      activities including home visits,
-                      lectures, and community awareness-raising activities 
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table
-      class="wrapper"
-      cellpadding="0"
-      cellspacing="0"
-      role="presentation"
-      width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
-    >
-      <tbody>
-        <tr>
-          <td
-            class="px-sm-16"
-            align="center"
-            bgcolor="#EEEEEE"
-            data-bgcolor="Outer"
-          >
-            <table
-              class="container"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="600"
-            >
-              <tbody>
-                <tr>
-                  <td
-                    
-                    align="left"
-                    bgcolor="#FFFFFF"
                     style="padding: 24px"
-                    data-bgcolor="Inner"
-                  >
-                    <table
-                      cellpadding="0"
-                      cellspacing="0"
-                      role="presentation"
-                      width="100%"
-                    >
-                      <tbody>
-                        <tr data-repeatable="">
-                          <td class="col" width="72" style="padding: 0">
-                            <table
-                              cellpadding="0"
-                              cellspacing="0"
-                              role="presentation"
-                              width="100%"
-                            >
-                              <tbody>
-                                <tr>
-                                  <td
-                                    mc:edit=""
-                                    class="webfont"
-                                    style="
-                                      font-size: 18px;
-                                      font-weight: 500;
-                                      
-                                      color:#e20f6e;
-                                    "
-                                    
-                                  >
-                                    One-to-One Outreach
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                          <td
-                            mc:edit=""
-                            class="hide-sm"
-                            align="center"
-                            width="68"
-                            
-                          >
-                            <img
-                              src="https://lh3.googleusercontent.com/pw/AMWts8A64H3ou5Nt6IyKe-gmclsMaG1OKgTDcYWYLD1aP_PBCnMr6nBSwLQMO1vAomtZWVU6SWyWoQM-1edtBlOfm-nv990lZNwblMKPg-XFJRJfsCV_BK0mjTfS5sTDOXu3g0YGrRpwb3z0Fj_d7BV9e-Pv=w243-h793-s-no?authuser=0"
-                              alt=""
-                              width="68"
-                              data-crop="false"
-                            />
-                          </td>
-                          <td
-                            class="col "
-                            width="356"
-                            style="padding: 0 8px"
-                          >
-                            <table
-                              cellpadding="0"
-                              cellspacing="0"
-                              role="presentation"
-                              width="100%"
-                            >
-                              <tbody>
-                                <tr>
-                                  <td
-                                    class="webfont "
-                                    
-                                  >
-                                    <h3
-                                      class="pt-sm-8"
-                                      style="font-size: 14px; margin: 0 0 15px; color:#e20f6e; font-weight:500;"
-                                      
-                                    >
-                                      <span style="font-weight:700">16,924</span> counselling sessions (home-visits) were conducted reaching out to <span style="font-weight:700">25,253</span> women. 
-                                    </h3>
-                                    <p
-                                      
-                                      style="color: #666666; margin: 0"
-                                      data-color="Text 1"
-                                      data-size="Text 1"
-                                    >
-
-                                      <ul style="color: #565656;
-                                          padding: 0;
-                                          margin: 0 0 30px 20px;
-                                          line-height: 1.5;">
-                                        <li style="">
-                                       <span style="font-weight:700">1480</span>  Home visits >> Educating <span style="font-weight:700">4500</span>
-                                       women with messages about cancer prevention and breast and 
-                                       cervical cancer early detection. 
-                                        </li>
-                                        <li>
-                                       <span style="font-weight:700">15444</span> home visits >> Educating <span style="font-weight:700">20753</span> women with messages 
-                                       about breast cancer early detection, breast feeding and family planning
-                                        </li>
-                     
-                                      </ul>
-                                    </p>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                        <tr data-repeatable="">
-                          <td class="col" width="72">
-                            <table
-                              cellpadding="0"
-                              cellspacing="0"
-                              role="presentation"
-                              width="100%"
-                            >
-                              <tbody>
-                                <tr>
-                                  <td
-                                    mc:edit=""
-                                    class="webfont"
-                                    style="
-                                      font-size: 18px;
-                                      font-weight: 500;
-                                      
-                                      color:#e20f6e;
-                                    "
-                                    
-                                  >
-                                    One-to-Group Outreach:
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                          <td
-                            mc:edit=""
-                            class="hide-sm"
-                            align="center"
-                            width="68"
-                            
-                          >
-                            <img
-                              src="https://lh3.googleusercontent.com/pw/AMWts8A64H3ou5Nt6IyKe-gmclsMaG1OKgTDcYWYLD1aP_PBCnMr6nBSwLQMO1vAomtZWVU6SWyWoQM-1edtBlOfm-nv990lZNwblMKPg-XFJRJfsCV_BK0mjTfS5sTDOXu3g0YGrRpwb3z0Fj_d7BV9e-Pv=w243-h793-s-no?authuser=0"
-                              alt=""
-                              width="68"
-                              data-crop="false"
-                            />
-                          </td>
-                          <td
-                            class="col"
-                            width="356"
-                            style="padding: 0 8px"
-                          >
-                            <table
-                              cellpadding="0"
-                              cellspacing="0"
-                              role="presentation"
-                              width="100%"
-                            >
-                              <tbody>
-                                <tr>
-                                  <td
-                                    class="webfont"
-                                    
-                                  >
-                                    <h3
-                                      class="pt-sm-8"
-                                      style="font-size: 14px; margin: 0 0 15px; color:#e20f6e; font-weight:500;"
-                                      
-                                    >
-                                      
-                                     <span style="font-weight:700">4,600</span> lectures about breast cancer and cancer 
-                                     prevention were conducted reaching <span style="font-weight:700">98,000</span> women and men
-                                    </h3>
-                                    <p
-                                      
-                                      style="color: #666666; margin: 0"
-                                      data-color="Text 1"
-                                      data-size="Text 1"
-                                    >
-
-                                      <ul style="color: #565656;
-                                          padding: 0;
-                                          margin: 0 0 30px 20px;
-                                          line-height: 1.5;">
-                                        <li>
-                                       
-                                       <span style="font-weight:700">4,300</span> Breast cancer lectures >>Educating <span style="font-weight:700">92,000</span> women >>> Screening 2369 women   
-                                        </li>
-                                        <li>
-                                       <span style="font-weight:700">300</span> Cancer prevention lectures>>> Educating <span style="font-weight:700">6000</span> men and women. 
-                                        </li>
-                     
-                                      </ul>
-                                    </p>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                        <tr data-repeatable="">
-                          <td class="col" width="72" >
-                            <table
-                              cellpadding="0"
-                              cellspacing="0"
-                              role="presentation"
-                              width="100%"
-                            >
-                              <tbody>
-                                <tr>
-                                  <td
-                                    mc:edit=""
-                                    class="webfont"
-                                    style="
-                                      font-size: 18px;
-                                      font-weight: 500;
-                                      
-                                      color:#e20f6e;
-                                    "
-                                    
-                                  >
-                                    65 open medical days were conducted
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                          <td
-                            mc:edit=""
-                            class="hide-sm"
-                            align="center"
-                            width="68"
-                            
-                          >
-                            <img
-                              src="https://lh3.googleusercontent.com/pw/AMWts8A64H3ou5Nt6IyKe-gmclsMaG1OKgTDcYWYLD1aP_PBCnMr6nBSwLQMO1vAomtZWVU6SWyWoQM-1edtBlOfm-nv990lZNwblMKPg-XFJRJfsCV_BK0mjTfS5sTDOXu3g0YGrRpwb3z0Fj_d7BV9e-Pv=w243-h793-s-no?authuser=0"
-                              alt=""
-                              width="68"
-                              data-crop="false"
-                            />
-                          </td>
-                          <td
-                            class="col "
-                            width="356"
-                            style="padding: 0 8px"
-                          >
-                            <table
-                              cellpadding="0"
-                              cellspacing="0"
-                              role="presentation"
-                              width="100%"
-                            >
-                              <tbody>
-                                <tr>
-                                  <td
-                                    class="webfont"
-                                    
-                                  >
-                                    <h3
-                                      class="pt-sm-8"
-                                      style="font-size: 14px; margin: 0 0 15px; color:#e20f6e; font-weight:500;"
-                                      
-                                    >
-                                      
-                                     
-                                    </h3>
-                                    <p
-                                      
-                                      style="color: #666666; margin: 0"
-                                      data-color="Text 1"
-                                      data-size="Text 1"
-                                    >
-
-                                      <ul style="color: #565656;
-                                          padding: 0;
-                                          margin: 0 0 30px 20px;
-                                          line-height: 1.5;">
-                                        
-                                        
-                                      </ul>
-                                    </p>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table
-      class="wrapper"
-      cellpadding="0"
-      cellspacing="0"
-      role="presentation"
-      width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
-    >
-      <tbody>
-        <tr>
-          <td
-            class="px-sm-16"
-            align="center"
-            bgcolor="#EEEEEE"
-            data-bgcolor="Outer"
-          >
-            <table
-              class="container"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="600"
-            >
-              <tbody>
-                <tr>
-                  <td
-                    style="padding: 48px 24px"
-                    align="left"
-                    bgcolor="#E9E9E9"
-                    data-bgcolor="Inner"
-                  >
-                    <h2
-                      style="
-                        
-                        color: #e20f6e;
-                        font-size: 30px;
-                        font-weight: 500;
-                        margin: 0 0 20px;
-                        line-height: 1.2;
-                      "
-                    >
-                      "Innovative Integrated Social Behavior Change in Women's Health" 
-                      Project, in Irbid, Zarqa and Aqaba governorates. 
-                    </h2>
-
-                    <p
-                      class="section-paragraph"
-                      data-color="Quote Text"
-                      data-size="Quote Text"
-                    >
-                      With a grant from MSD for mothers -a global initiative to reduce maternal mortality-, 
-                      JBCP is implementing a three years’ project that provides comprehensive women health 
-                      counselling and health promotion activities with special focus on maternal health; 
-                      particularly topics of family planning, breast feeding, and breast cancer screening. 
-                      Halfway through the project, trained community health workers were able to reach <span style="font-weight:500">32,000</span> 
-                      women through conducting <span style="font-weight:500">15,444</span> (one-to-one) and <span style="font-weight:500">1,775</span> (one-to-group) sessions. Utilizing 
-                      the newly developed skills of <span style="font-weight:500">72</span> trained HCPS, <span style="font-weight:500">6,108</span> women (Jordanians & Refugees) 
-                      were provided with health services in designated health centers (and through JBCP mobile Unit). 
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table
-      class="wrapper"
-      cellpadding="0"
-      cellspacing="0"
-      role="presentation"
-      width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
-    >
-      <tbody>
-        <tr>
-          <td
-            class="px-sm-16"
-            align="center"
-            bgcolor="#EEEEEE"
-            data-bgcolor="Outer"
-          >
-            <table
-              class="container"
-              cellpadding="0"
-              cellspacing="0"
-              role="presentation"
-              width="600"
-            >
-              <tbody>
-                <tr>
-                  <td
-                    style="padding: 48px 24px"
                     align="left"
                     bgcolor="#FFFFFF"
                     data-bgcolor="Inner"
                   >
                     <h2
                       style="
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         margin: 0 0 20px;
                         line-height: 1.2;
                       "
                     >
-                      Kick-off of the Blended Learning & Behavior Change for Local Development Project 
+                      2.1 Community Mobilization to Advocate for Breast Cancer
+                      Early Detection Across Jordan
                     </h2>
-
-                    <p
-                      class="section-paragraph"
-                      style="margin:0 0 20px"
-                    >
-                     JBCP has launched supported by the Spanish Agency for International Development 
-                     Cooperation (AECID), launched the Blended Learning & Behavior change for Local 
-                     Development Project which aims mobilize the community through one-to-one, 
-                     one-to-group and one-to-mass awareness activities and create a community 
-                     that supports breast cancer early detection and cancer prevention. 
-                     The project also generates groundbreaking research and evidence on 
-                     women’s access to NCDs care and health equity challenges in Jordan. 
-                     The project comprehensively targets the community, including Jordanians 
-                     and Syrian refugees. 
+                    <p class="section-paragraph" style="margin: 0 0 20px">
+                      <span style="font-weight: 700">185,000</span> women were
+                      reached and educated through outreach activities including
+                      home visits, lectures, and community awareness-raising
+                      events.
                     </p>
-                    <p
-                      class="section-paragraph"
-                      style="margin:0 0 20px"
-                    >
-                    Concluding year one of implementation, JBCP reached 
-                    <span style="font-weight:500">24,767</span> women through the program activities conducted 
-                    by more than <span style="font-weight:500">100</span> trained Community Health Workers raising 
-                    community awareness, changing negative social behaviors 
-                    and advocating for better breast cancer screening, 
-                    early detection, and cancer prevention practices.
-                    </p>
-                    <p
-                      class="section-paragraph"
-                      style="margin:0 0 20px"
-                    >
-                    JBCP has trained <span style="font-weight:500">45</span> champions where they commenced implementation 
-                    of innovative initiatives to voice out JBCP messages to their peers
-                     in their community. Overall, <span style="font-weight:500">277</span> members of the community were 
-                     reached through <span style="font-weight:500">14 initiatives</span> executed by the champions in the 
-                     targeted governorates. 
-                    </p>
+                    <div align="center">
+                      <img
+                        width="100%"
+                        alt="one-to-one outreach"
+                        src="https://lh3.googleusercontent.com/pw/AMWts8DsAhML0mCyCTVKtgYch_pU5yjKBAmmuLazQSR23t_kkH36cDX6LcBq_pG0nnUDiaai7Nok51ZMQXWwqhXOZKUxtHst1SobHEbfR8asdn7lNnHJ5hofVzKxZP-UU_Zaw7wMKUBhBkqkJSHS8Q3BRG5_=w742-h243-s-no?authuser=0"
+                      />
+                    </div>
+                    <div align="center">
+                      <img
+                        width="100%"
+                        alt="one-to-group outreach"
+                        src="https://lh3.googleusercontent.com/pw/AMWts8AgXk1PBhLdnpQxPBT97Gx4REhS-gmjPA7wqu-oUKpQX9eaLYNWYnVRokdmo42epLKS4QULpEBI7nHMUh7mNaLQKLzL0fUqHrA8mbfhL6z4w2XbgepokSMmqbBT912UCRfOYHx5IYlHsmzk32XaQUPe=w768-h249-s-no?authuser=0"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        width="100%"
+                        alt="65 open medical days"
+                        src="https://lh3.googleusercontent.com/pw/AMWts8BNs3fSve_LVocKiAM9YFNVjQxMDvmQ3d6DXFWM4X4cQEqnVa0Qi1mpapUPikZ1xsz0VSxB5bxWnoOJ1uFQPJEPmcYu5S0OWO-buqwxQp91LUlU3bvMEeg3VeMpDeom7fNi1z9rS1kGkhPYROQyNY2T=w742-h243-s-no?authuser=0"
+                      />
+                    </div>
                   </td>
                 </tr>
               </tbody>
@@ -2194,9 +1529,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -2216,15 +1548,154 @@
               <tbody>
                 <tr>
                   <td
-                    style="padding: 48px 24px"
+                    style="padding: 24px"
                     align="left"
                     bgcolor="#E9E9E9"
                     data-bgcolor="Inner"
                   >
                     <h2
                       style="
-                        
-                        color: #e20f6e;
+                        color: #d61e8a;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 0 0 20px;
+                        line-height: 1.2;
+                      "
+                    >
+                      Innovative, Integrated SBCC Project in Women's Health
+                    </h2>
+                    <p
+                      class="section-paragraph"
+                      data-color="Quote Text"
+                      data-size="Quote Text"
+                    >
+                      JBCP was awarded a grant from MSD for mothers - a global
+                      initiative to reduce maternal mortality - to implement a
+                      three-year project (2021-2024) that provides comprehensive
+                      women's health counselling and health promotion activities
+                      to Jordanian and refugee women on topics related to family
+                      planning, breast feeding, and breast cancer screening. To
+                      date, community health workers reached
+                      <span style="font-weight: 500">32,000</span> women through
+                      <span style="font-weight: 500">15,444</span> one-to-one
+                      and <span style="font-weight: 500">1,775</span> group
+                      sessions. Utilizing the newly developed skills of
+                      <span style="font-weight: 500">72 </span> trained Health
+                      care providers,
+                      <span style="font-weight: 500">6,108</span> women were
+                      provided with health services.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 24px"
+                    align="left"
+                    bgcolor="#E9E9E9"
+                    data-bgcolor="Inner"
+                  >
+                    <h2
+                      style="
+                        color: #d61e8a;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 0 0 20px;
+                        line-height: 1.2;
+                      "
+                    >
+                      Blended Learning & Behavior Change for Local Development
+                      Project
+                    </h2>
+                    <p class="section-paragraph" style="margin: 0 0 20px">
+                      JBCP, supported by the Spanish Agency for International
+                      Development Cooperation (AECID), launched the Blended
+                      Learning & Behavior change for Local Development Project
+                      (2021-2023) which aims mobilize the community through
+                      awareness activities and by generating groundbreaking
+                      research and evidence on women's access to NCDs care and
+                      health equity challenges in Jordan. During its first year
+                      of implementation, JBCP reached
+                      <span style="font-weight: 500">24,767</span> women through
+                      activities conducted by more than
+                      <span style="font-weight: 500">100</span> trained
+                      community health workers. In addition,
+                      <span style="font-weight: 500">45</span> champions were
+                      trained to spread JBCP's messages to their peers. Overall,
+                      <span style="font-weight: 500">277</span> members of the
+                      community were reached through
+                      <span style="font-weight: 500">14 initiatives</span>
+                      executed by the champions in the target governorates.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 24px"
+                    align="left"
+                    bgcolor="#FFFFFF"
+                    data-bgcolor="Inner"
+                  >
+                    <h2
+                      style="
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         margin: 0 0 20px;
@@ -2233,40 +1704,22 @@
                     >
                       Community Training
                     </h2>
-
                     <p
                       class="section-paragraph"
                       data-color="Quote Text"
                       data-size="Quote Text"
                     >
-                      <span style="font-weight:500">637</span> New community advocates and community health 
-                      volunteers attended our community and health promotion 
-                      training and joined our mission.
+                      <span style="font-weight: 500">637</span> new community
+                      advocates and community health volunteers attended our
+                      community and health promotion trainings.
                     </p>
-                    <ul style="color: #565656;
-                        font-size: 18px;
-                        margin: 0 0 30px;
-                        line-height: 1.5;"> 
-                      <li>
-                       <span style="font-weight:500">12</span> Refresher Training 
-                      </li>
-                      <li>
-                        <span style="font-weight:500">3</span> ToT for HCPs and CHWs 
-                      </li>
-                      <li>
-                        <span style="font-weight:500">2</span> trainings for CHWs on ovarian and children brain cancer awareness 
-                      </li>
-                      <li>
-                        <span style="font-weight:500">6</span> Soft skills training for CHWs 
-                      </li>
-                      <li>
-                        <span style="font-weight:500">2</span> Advocacy training workshops 
-                      </li>
-                      <li>
-                        <span style="font-weight:500">3</span> Champions training workshops
-                      </li>
-                      
-                    </ul>
+                    <div align="center">
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8DnjqQXUxCVQPUtV42RHzKDy8hG1_sXS4okOWMkIJWUxdwdQ1qvBinaE0TINwBt3n0_nC_ZsTTJ8VjUEoxDV2Kd8sQV3oF6Nu84xJAeolpbPTsgKpUdyOiibcmYHz5lpbnEmOMYw8ygp5b2hgKQwH-1=w954-h436-s-no?authuser=0"
+                        alt="zoom meeting"
+                        width="100%"
+                      />
+                    </div>
                   </td>
                 </tr>
               </tbody>
@@ -2281,9 +1734,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -2311,101 +1761,66 @@
                     <h2
                       style="
                         margin: 0 0 25px;
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         line-height: 1.2;
                       "
                     >
-                      October Breast Cancer Awareness Campaign 
+                      October Breast Cancer Awareness Campaign
                     </h2>
-                    <p
-                      class="section-paragraph"
-                      style="margin: 0 0 32px"
-                      data-color="Quote Text"
-                      data-size="Quote Text"
-                    >
-                      Every October, the international month for breast cancer 
-                      awareness we start seeing the pink color spreading everywhere 
-                      as an effort from all entities working in the field of cancer 
-                      control to shed more light on Breast cancer. 
-                    </p>
-                    <p
-                      class="section-paragraph"
-                      style="margin: 0 0 32px"
-                      data-color="Quote Text"
-                      data-size="Quote Text"
-                    >
-                     In cooperation with <span style="font-weight:500">12 Arab countries </span>
-                     (Saudi Arabia, UAE, Lebanon, Egypt, Algeria, 
-                     Palestine, Sudan, Bahrain, Morocco, Libya, Oman and Kuwait); 
-                     JBCP has launched the <span style="font-weight:500">7<sup>th</sup></span> regional campaign: 
-                    <span style="font-weight:500; color: #e20f6e;">An Image for Life. Get Tested- صورة للحياة افحصي.</span> In this campaign Jordan Breast 
-                     Cancer Program has emphasized the message to all women 
-                     aged 40 and above to get screened through mammography.  
-                    </p>
                     <div align="center">
                       <img
                         src="https://lh3.googleusercontent.com/pw/AMWts8CxH1Cn04IvnV1zRMLUtuDUcR3tphS0GM6ZFzMgRUvcUIBGD5a5hGN8gkIJq0OUXnwbhfjT4PPS2HMw6illrMLYeVfqOhWu3J-JztUp_4RW0Qv5jMBxs_Alss51wJ-BdDWk-ieKsL-O6BVx3ljzMlKk=w1123-h549-s-no?authuser=0"
                         alt="zoom meeting"
                         width="100%"
                       />
+                      <p
+                        class="section-paragraph"
+                        style="margin: 0 0 32px; text-align: left"
+                      >
+                        In cooperation with
+                        <span style="font-weight: 500">12 Arab countries </span>
+                        (Saudi Arabia, UAE, Lebanon, Egypt, Algeria, Palestine,
+                        Sudan, Bahrain, Morocco, Libya, Oman and Kuwait); JBCP
+                        has launched the
+                        <span style="font-weight: 500">7 <sup>th</sup> </span>
+                        regional campaign:
+                        <a
+                          href="https://www.youtube.com/watch?v=P0X31CvWi_w"
+                          style="
+                            font-weight: 500;
+                            color: #d61e8a;
+                            font-size: 18px;
+                            text-decoration: underline;
+                          "
+                          >An Image for Life. Get Tested- صورة للحياة افحصي.
+                        </a>
+                        in celebration of international Breast Cancer Awareness
+                        month, and to encourage all women over the age of 40 to
+                        undergo mammography screening. The campaign outcomes
+                        included:
+                      </p>
+                      <p
+                        style="
+                          margin: 20px 0 10px;
+                          color: #d61e8a;
+                          font-size: 22px;
+                          font-weight: 500;
+                          line-height: 1.2;
+                          text-align: left;
+                        "
+                      >
+                        October Campaign Achievements:
+                      </p>
                     </div>
-                    <p
-                      class="section-paragraph"
-                      style="margin: 32px 0"
-                      data-color="Quote Text"
-                      data-size="Quote Text"
-                    >
-                     The campaign included different activities that targeted all 
-                     age groups at all governorates. It included many educational 
-                     and interactive lectures in schools and universities, 
-                     preparing multiple informative sessions in private, public 
-                     sectors, and community-based organizations, distributing 
-                     educational material across a Jordan and the media campaign 
-                     through visual media, radio broadcast and social media platforms. 
-                     It also included illuminating in pink many historical and 
-                     cultural sites in Jordan. During the campaign JBCP collaborated 
-                     with the different healthcare providers to provide free clinical 
-                     breast examinations, and subsidized rates for mammogram images. 
-                    </p>
-                    <p
-                      style="
-                        margin: 20px 0 5px;
-                        color: #e20f6e;
-                        font-size: 22px;
-                        font-weight: 400;
-                        line-height: 1.2;
-                      "
-                    >
-                      October Campaign Achievements:
-                    </p>
-                    <ul style="color: #565656;
-                        font-size: 18px;
-                        margin: 0 0 30px;
-                        line-height: 1.5;"> 
-                      <li style="margin: 10px 0">
-                       <span style="font-weight:500; color: #e20f6e;">9,408</span>  Mammography images were conducted and <span style="font-weight:500; color: #e20f6e;">42,000</span> women got CBE throughout Jordan
-                      </li>
-                      <li style="margin: 10px 0">
-                        <span style="font-weight:500; color: #e20f6e;">40,000</span>  People were reached through <span style="font-weight:500; color: #e20f6e;">40</span> Roadshows implemented in malls and medical centers  
-                      </li>
-                      <li style="margin: 10px 0">
-                        <span style="font-weight:500; color: #e20f6e;">5 million</span>  People were reached through lectures, roadshows, home visits, media and social media exposure. 
-                      </li>
-                      <li style="margin: 10px 0">
-                        <span style="font-weight:500; color: #e20f6e;">855</span> Locations branded with the campaign theme. 
-                      </li>
-                      <li style="margin: 10px 0">
-                        <span style="font-weight:500; color: #e20f6e;">900,000</span> Educational & Promotional materials were delivered to educate on the importance of breast cancer screening 
-                      </li>
-                      <li style="margin: 10px 0">
-                        More than <span style="font-weight:500; color: #e20f6e;">2,000,000</span> views on TV campaign Ad 
-                      </li>
-                      <li style="margin: 10px 0">
-                        <span style="font-weight:500; color: #e20f6e;">Two million</span> SMS has been sent to reach landing page of October campaign. 
-                      </li>
-                    </ul>
+                    <div align="center">
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8Bb0ajinuCkGyJ9qXAxPIPGGXU9AhHD6xfo4ey_acGMJm-EB0dYEwFYDZsu9wmKTdJJGdl8iuYgFeQE_XKXihbvC5nUTtJJceT63vhiSTyMtlnllj6Q6PzOn99XD6rt0wpMDC6QyJNXBK8K1Z6JEaMp=w939-h756-s-no?authuser=0"
+                        alt="infographics"
+                        width="100%"
+                      />
+                    </div>
                   </td>
                 </tr>
               </tbody>
@@ -2420,9 +1835,6 @@
       cellspacing="0"
       role="presentation"
       width="100%"
-      data-module="Demo Timeline"
-      data-group="DEMO"
-      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/timeline.jpg"
     >
       <tbody>
         <tr>
@@ -2442,15 +1854,14 @@
               <tbody>
                 <tr>
                   <td
-                    style="padding: 48px 24px"
+                    style="padding: 24px"
                     align="left"
                     bgcolor="#E9E9E9"
                     data-bgcolor="Inner"
                   >
                     <h2
                       style="
-                        
-                        color: #e20f6e;
+                        color: #d61e8a;
                         font-size: 30px;
                         font-weight: 500;
                         margin: 0 0 20px;
@@ -2459,29 +1870,45 @@
                     >
                       October Think Pink Activities:
                     </h2>
-
-                    <p
-                      class="section-paragraph"
-                      data-color="Quote Text"
-                      data-size="Quote Text"
-                    >
-                     Every October, JBCP launches the “Think Pink” initiative 
-                     which is an initiative to encourage the entire community 
-                     to raise awareness on breast cancer early detection and 
-                     support the cause, positioning breast cancer as a community 
-                     and public health priority.  
-                    Last October, more than <span style="font-weight:500; color: #e20f6e;">2,500</span> Think Pink” events have 
-                    been conducted in collaboration with private and public 
-                    sectors and NGO’s Including but not limited to, hospitals, 
-                    medical centers, corporates, associations, universities, 
-                    schools, fitness & Wellness Centers, Ministries and 
-                    embassies, reaching more than <span style="font-weight:500; color: #e20f6e;">60,000</span> community members 
-                    with our message.
+                    <p class="section-paragraph">
+                      Every October, JBCP launches the “Think Pink” initiative
+                      to raise awareness and position breast cancer as a
+                      community and public health priority. More than
+                      <span style="font-weight: 500; color: #d61e8a"
+                        >2,500</span
+                      >
+                      ”Think Pink” events were conducted, reaching more than
+                      <span style="font-weight: 500; color: #d61e8a"
+                        >60,000</span
+                      >
+                      community members.
                     </p>
+                    <ul
+                      style="
+                        color: #d61e8a;
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin: 10px 0 20px;
+                        line-height: 1.5;
+                        padding: 0 30px;
+                      "
+                    >
+                      <li>
+                        <a
+                          href="https://www.facebook.com/JordanBreastCancerProgram/videos/861423651669496"
+                          style="
+                            color: #d61e8a;
+                            text-decoration: underline;
+                            font-size: 18px;
+                          "
+                          >Watch October Think Pink Activities
+                        </a>
+                      </li>
+                    </ul>
                     <h2
                       style="
-                        color: #e20f6e;
-                        font-size: 26px;
+                        color: #d61e8a;
+                        font-size: 30px;
                         font-weight: 400;
                         margin: 20px 0 10px;
                         line-height: 1.2;
@@ -2489,15 +1916,876 @@
                     >
                       Jordan Lights Up in Pink
                     </h2>
+                    <p class="section-paragraph">
+                      <span style="font-weight: 500; color: #d61e8a"
+                        >14 landmarks</span
+                      >
+                      in Jordan joined the cause and glowed in pink.
+                    </p>
+                    <ul
+                      style="
+                        color: #d61e8a;
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin: 10px 0 20px;
+                        line-height: 1.5;
+                        padding: 0 30px;
+                      "
+                    >
+                      <li>
+                        <a
+                          href="https://www.facebook.com/JordanBreastCancerProgram/videos/448885784024552"
+                          style="
+                            color: #d61e8a;
+                            text-decoration: underline;
+                            font-size: 18px;
+                          "
+                          >Watch Jordan Lights Up in Pink
+                        </a>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 36px 24px"
+                    align="left"
+                    bgcolor="#FFFFFF"
+                    data-bgcolor="Inner"
+                  >
+                    <h2
+                      style="
+                        color: #d61e8a;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 0 0 20px;
+                        line-height: 1.2;
+                      "
+                    >
+                      Arab Alliance for Breast Cancer Control Summit
+                    </h2>
+                    <p class="section-paragraph" style="margin: 0 0 20px">
+                      In collaboration with Friends of Cancer Patients-United
+                      Arab Emirates, JBCP organized a meeting with partners from
+                      <span style="color: #d61e8a">nine Arab countries</span>
+                      (UAE, Jordan, Sudan, Morocco, Kuwait, Oman, Saudi Arabia,
+                      Palestine and Iraq) in Sharjah in July 2022. During the
+                      meeting, the importance of joining forces against breast
+                      cancer was emphasized, and JBCP presented the results of
+                      their study “Knowledge, Attitudes, and Practices of Arab
+                      Women related to Breast Cancer.”
+                    </p>
+                    <table
+                      cellpadding="0"
+                      cellspacing="0"
+                      role="presentation"
+                      width="100%"
+                    >
+                      <tbody>
+                        <tr>
+                          <td class="col pb-sm-16" width="260">
+                            <div class="align-sm-center">
+                              <div style="padding: 0; margin: 0">
+                                <img
+                                  src="https://lh3.googleusercontent.com/pw/AMWts8CsLMJQHSBMXgocW_4vRBtv0wjJgI5MF2e4dV4G_ZVsPXMqR8h-E7SZYSMZDxlzx2P0Vx15oNa8J4eTM3U-WLgogb2zglburxPEXSF0Ul0_z-H1iTrBAjQZX21paNn7-K2-UGJ_cqDwQNlLWPcIb8wi=w260-h173-s-no?authuser=0"
+                                  alt="Wallpaper iOS App"
+                                  width="260"
+                                  data-crop="false"
+                                />
+                              </div>
+                            </div>
+                          </td>
+                          <td class="col" width="260">
+                            <div class="align-sm-center">
+                              <div style="padding: 0">
+                                <img
+                                  src="https://lh3.googleusercontent.com/pw/AMWts8D5lG_etA23ELiCXmsmEfiAyjCM4rT0UqHTNUWzWFQrAZGyyjw6WeQOiChljVEr5RNQ6fOyFOrMcIVauM87aSn7C6g83ts58rz-AAQEf_VzxVxnl6mg6THctWylZpfuwAGj03DKo8Faq1ys2YHI7Gsk=w304-h203-s-no?authuser=0"
+                                  alt="Hipster Photoshoot"
+                                  width="260"
+                                  data-crop="false"
+                                />
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr align="center">
+                          <td colspan="2">
+                            <div style="padding: 20px 0 0 0">
+                              <img
+                                src="https://lh3.googleusercontent.com/pw/AMWts8ArZzCBNXVa8vgXpYDAZTvUskSyyZMA5l-RZS6wz5scVvrX10XA2qaxGF7_Ge12CBleGX3A7yKwshNfYxF06W03AAn1u7NOPaz07wgUjjMGfYZMxFYveCm2FHjOzcFgTuTQnIUgpDSkqK-r-zaiDRJG=w338-h225-s-no?authuser=0"
+                                alt="Hipster Photoshoot"
+                                width="260"
+                                data-crop="false"
+                              />
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 24px"
+                    align="left"
+                    bgcolor="#E9E9E9"
+                    data-bgcolor="Inner"
+                  >
+                    <h2
+                      style="
+                        color: #d61e8a;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 0 0 20px;
+                        line-height: 1.2;
+                      "
+                    >
+                      3. Advocacy, Policy, and Evidence
+                    </h2>
+                    <p class="section-paragraph">
+                      JBCP has taken several actions to ensure better
+                      sustainability and impact of the program’s interventions.
+                      Among these include ensuring availability of reliable
+                      data, networking with advocates and community champions,
+                      and advocating for sound policy reform, and many other
+                      initiatives that makes our message and mission ongoing.
+                    </p>
+                    <h2
+                      style="
+                        color: #d61e8a;
+                        font-size: 26px;
+                        font-weight: 400;
+                        margin: 20px 0 10px;
+                        line-height: 1.2;
+                      "
+                    >
+                      Breast Cancer Survivors Event and Retreat
+                    </h2>
+                    <table
+                      cellpadding="0"
+                      cellspacing="0"
+                      role="presentation"
+                      width="100%"
+                    >
+                      <tbody>
+                        <tr>
+                          <td class="col pb-sm-16" width="260">
+                            <div>
+                              <div style="padding: 0 0 0 8px">
+                                <p
+                                  class="section-paragraph"
+                                  style="
+                                    margin: 20px 0 0 0;
+                                    padding: 0 20px 0 0;
+                                  "
+                                >
+                                  JBCP has a network of survivors who serve as
+                                  champions for breast cancer awareness and
+                                  early detection by sharing their stories to
+                                  encourage more women to get tested. As a part
+                                  of our efforts to provide continuous support
+                                  to survivors, JBCP conducted its annual
+                                  survivors event which included a stand-up
+                                  comedy show, competitions, a meditation
+                                  session, and more.
+                                </p>
+                              </div>
+                            </div>
+                          </td>
+                          <td class="col" width="260">
+                            <div class="align-sm-center">
+                              <div class="pt-sm-0" style="padding: 75px 0 0 0">
+                                <a
+                                  href="https://www.facebook.com/JordanBreastCancerProgram/videos/1221785028623199 "
+                                >
+                                  <img
+                                    src="https://lh3.googleusercontent.com/pw/AMWts8CKEa_cbmOih5vjJQZ5wCViZbyGqdkF0bo6e1sWbp00nD_xPSEfPdSXoNluC-0NqdR9nxx5Ft_5aiFKUpLr3zMq6Br7Cs2XzO3wK50d7kZLwplTot7Eh-sTNA2dCqW-aej3jHyZe4cFaYDyNm99hcMl=w812-h667-s-no?authuser=0"
+                                    alt="Survivors"
+                                    width="260"
+                                    data-crop="false"
+                                  />
+                                </a>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 24px"
+                    align="left"
+                    bgcolor="#FFFFFF"
+                    data-bgcolor="Inner"
+                  >
+                    <h2
+                      style="
+                        color: #d61e8a;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 0 0 20px;
+                        line-height: 1.2;
+                      "
+                    >
+                      “Rekindling the Flame” TRAINING COURSE
+                    </h2>
+                    <div align="center">
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8BZM88lBJUUqdRcxaWAIzrWul70sAbOosaNrnrKboqrRGZuLXCDkol-WKGtx4MOxUy2ujt5-cP9wCjPcHPHw6L8XiPhPEeZtR8FnkDik3OJ5sadkN8bAXhJLHkIkvtCDO638ublD0NRsWnV2sTxE1r1=w866-h577-s-no?authuser=0"
+                        alt="rekindling the flame group photo"
+                        width="100%"
+                      />
+                    </div>
+                    <p class="section-paragraph" style="margin: 20px 0 0 0">
+                      Supported by Hikma Pharmaceuticals, JBCP held a training
+                      course entitled “Rekindling the Flame” dedicated for
+                      survivors to create balance, healthy change and moving
+                      forward after recovery. The survivors learned about the
+                      brain's role in relation to suffering - particularly how
+                      their thoughts, feelings, and actions are interrelated,
+                      and what they can do to better manage them.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 24px"
+                    align="left"
+                    bgcolor="#E9E9E9"
+                    data-bgcolor="Inner"
+                  >
+                    <h2
+                      style="
+                        color: #d61e8a;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 0 0 20px;
+                        line-height: 1.2;
+                      "
+                    >
+                      Launching “Sehtak Bel Wardi” Mobile Application for Every
+                      Jordanian Woman
+                    </h2>
+                    <p class="section-paragraph" style="margin: 0 0 20px">
+                      JBCP, supported by the MSD for Mothers initiative,
+                      launched the “Sehtak Bel Wardi” mobile application which
+                      aims to encourage Jordanian women to prioritize their
+                      health, undergo breast cancer early detection and annual
+                      examinations, and learn about other practices related to
+                      women's health such as breastfeeding and family planning.
+                    </p>
+                    <div align="center">
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8DTMTSsfjHyOftkCH5obLgHQ2It0XPZtmLLC9SeVsT_b2i58ztuzZUJpOesT9Tf2ccfBlEX-4A97TdHThNElBXOtOdtE57_NCCUfofQsHzBJC0BxlkRlZ_fl7_vQD_TSBLVTN5YlqiigWv1UrfccniO=w983-h543-s-no?authuser=0"
+                        alt="sehetak bel wardi application"
+                        width="100%"
+                      />
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 24px"
+                    align="left"
+                    bgcolor="#FFFFFF"
+                    data-bgcolor="Inner"
+                  >
+                    <h2
+                      style="
+                        color: #d61e8a;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 0 0 20px;
+                        line-height: 1.2;
+                      "
+                    >
+                      UICC-Supported Breast Cancer Advocacy Program
+                    </h2>
+                    <p class="section-paragraph">
+                      JBCP started a new initiative supported by the Union for
+                      International Cancer Control (UICC) to advocate for equal
+                      and affordable breast cancer screening services for all
+                      women in Jordan through a series of advocacy workshops
+                      that create a supportive and enabling environment for
+                      early detection with the active involvement of
+                      decision-makers and community advocates to get public
+                      buy-in and ensure proper funding.
+                    </p>
+                    <ul
+                      style="
+                        margin: 0;
+                        margin-left: 25px;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                      "
+                      align="left"
+                      type="disc"
+                    >
+                      <li
+                        style="
+                          color: #d61e8a;
+                          font-size: 32px;
+                          line-height: 22px;
+                        "
+                      >
+                        <span
+                          style="
+                            color: #495055;
+                            font-size: 16px;
+                            line-height: 22px;
+                          "
+                        >
+                          <h2
+                            style="
+                              color: #d61e8a;
+                              font-size: 26px;
+                              font-weight: 400;
+                              margin: 20px 0 10px;
+                              line-height: 1.2;
+                            "
+                          >
+                            Advocacy Session to Increase Screening Accessibility
+                          </h2>
+                        </span>
+                      </li>
+                    </ul>
 
+                    <table
+                      cellpadding="0"
+                      cellspacing="0"
+                      role="presentation"
+                      width="100%"
+                    >
+                      <tbody>
+                        <tr>
+                          <td class="col" width="260">
+                            <div class="align-sm-center">
+                              <div class="pt-sm-0" style="padding: 30px 0 0">
+                                <img
+                                  src="https://lh3.googleusercontent.com/pw/AMWts8AtVl0OfFkR2-uwWFemvnJPs88q2xR7d8gYK9vKJilTS7Z5F_79PrnXRp-HSrOXfymp1CfV2jW7RgNoxB4mH9-5DsccsJoBSiaClAwnohajbyhFo3x_jE5ErmafslGmYU1AMg3FRDzxflOYLNqmVTid=w943-h628-s-no?authuser=0"
+                                  alt="Hipster Photoshoot"
+                                  width="260"
+                                  data-crop="false"
+                                />
+                              </div>
+                            </div>
+                          </td>
+                          <td class="col pb-sm-16" width="260">
+                            <div>
+                              <div style="padding: 0 0 0 8px">
+                                <p
+                                  class="section-paragraph"
+                                  style="
+                                    margin: 20px 0 0 0;
+                                    padding: 0 20px 0 0;
+                                  "
+                                >
+                                  Supported by the Union for International
+                                  Cancer Control (UICC), JBCP conducted a
+                                  dialogue session on providing quality services
+                                  for early detection and diagnosis of breast
+                                  cancer in the southern governorates (Al-Karak,
+                                  Al-Tafileh, Maan, and Aqaba).
+                                </p>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                     <p
                       class="section-paragraph"
-                      data-color="Quote Text"
-                      data-size="Quote Text"
+                      style="margin: 20px 0 0 0; padding: 0 20px 0 0"
                     >
-                     <span style="font-weight:500; color: #e20f6e;">14 landmarks</span> in Jordan joined the cause and glowed in pink.
+                      The session was attended by directors from the MOH in
+                      Amman and directors of local healthcare facilities and
+                      hospitals who discussed the current challenges and
+                      opportunities, as well as modalities to work collectively
+                      and gain buy-in for breast cancer early detection.
                     </p>
-                   
+                    <ul
+                      style="
+                        margin: 0;
+                        margin-left: 25px;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                      "
+                      align="left"
+                      type="disc"
+                    >
+                      <li
+                        style="
+                          color: #d61e8a;
+                          font-size: 32px;
+                          line-height: 22px;
+                        "
+                      >
+                        <span
+                          style="
+                            color: #495055;
+                            font-size: 16px;
+                            line-height: 22px;
+                          "
+                        >
+                          <h2
+                            style="
+                              color: #d61e8a;
+                              font-size: 26px;
+                              font-weight: 400;
+                              margin: 30px 0 0;
+                              line-height: 1.2;
+                            "
+                          >
+                            Traditional Media Training
+                          </h2>
+                        </span>
+                      </li>
+                    </ul>
+                    <p
+                      class="section-paragraph"
+                      style="margin: 10px 0; padding: 0 20px 0 0"
+                    >
+                      JBCP conducted a media training for Jordanian journalists
+                      on health-related topics with an emphasis on public
+                      awareness of breast cancer. The training included a
+                      three-day interactive workshop, followed by an additional
+                      three days of coaching to ensure that participants can
+                      deliver in depth reports with impact for publication and
+                      broadcasting.
+                    </p>
+                    <div align="center">
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8BHESaKlaAp6RCKEcxlT2kWyMRdkZzrbUGzaEvYMeyVNYGN0kwYOVzgMY7OPQwOm9dSVvlEE62s7EZ3duZtAWHum9sRQMdCAiX_AHbRxFIZG3HwySm4799ieF_3SM8oQrbCoGWUCGdfYkrWDY1E62jB=w1189-h793-s-no?authuser=0"
+                        alt="media training group"
+                        width="100%"
+                      />
+                    </div>
+                    <ul
+                      style="
+                        margin: 0;
+                        margin-left: 25px;
+                        padding: 0;
+                        font-family: Arial, sans-serif;
+                      "
+                      align="left"
+                      type="disc"
+                    >
+                      <li
+                        style="
+                          color: #d61e8a;
+                          font-size: 32px;
+                          line-height: 22px;
+                        "
+                      >
+                        <span
+                          style="
+                            color: #495055;
+                            font-size: 16px;
+                            line-height: 22px;
+                          "
+                        >
+                          <h2
+                            style="
+                              color: #d61e8a;
+                              font-size: 26px;
+                              font-weight: 400;
+                              margin: 50px 0 30px;
+                              line-height: 1.2;
+                            "
+                          >
+                            Roundtable on the Affordability and Equity of Breast
+                            Cancer Early Detection
+                          </h2>
+                        </span>
+                      </li>
+                    </ul>
+
+                    <div align="center">
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8CO50gPpVn5z0QrxwNPHSOC9nBLV1jc4Pawaj2S1TO8_FOpQ3SwnbcfV8YHKD6wkr884g8cVUWN8JWB5I4jHz_oj2thxsIlZ_i31rB4Bn0zkKIId1oK7COTfnpUU0fsPRTP-_c8ykjCEPz9515-eaQY=w968-h645-s-no?authuser=0"
+                        alt="media training group"
+                        width="100%"
+                      />
+                    </div>
+                    <p
+                      class="section-paragraph"
+                      style="margin: 20px 0 10px; padding: 0 20px 0 0"
+                    >
+                      Supported by UICC, JBCP organized a health policy session
+                      entitled "Breast Cancer Early Detection Services: Equity
+                      and Affordability" in the presence of JBCP Chairman Dr.
+                      Asem Mansour. During the session, JBCP shared the results
+                      of two recent studies issued by the program and led a
+                      discussion on the challenges and opportunities related to
+                      early detection in Jordan. The two studies are:
+                    </p>
+                    <ul
+                      style="
+                        color: #565656;
+                        font-size: 18px;
+                        margin: 0 0 30px;
+                        line-height: 1.5;
+                      "
+                    >
+                      <li>
+                        Jordanian Women's Willingness to Pay for Mammography
+                        Screening
+                      </li>
+                      <li>
+                        “Knowledge, Attitudes and Practices of Jordanian Women
+                        Towards Breast Cancer Early Detection Examinations”
+                      </li>
+                    </ul>
+                    <div align="center">
+                      <img
+                        src="https://lh3.googleusercontent.com/pw/AMWts8DS-S93r__SKeFbEQG1luKniGUux_VDofqG9MP91n4v8TH7-5meBYZIgTBYVmxDogOmqkbiLf4tLOQWoR5HGSmqpQ63zx-r3pGPD0iKGy2RRb0PqDI7Qps-IF5H7HiRLa4W3CIRXqMaUkz_gBMkVwp9=w1190-h793-s-no?authuser=0"
+                        alt="media training group"
+                        width="100%"
+                      />
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 24px"
+                    align="left"
+                    bgcolor="#E9E9E9"
+                    data-bgcolor="Inner"
+                  >
+                    <h2
+                      style="
+                        color: #d61e8a;
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 0 0 20px;
+                        line-height: 1.2;
+                      "
+                    >
+                      Campaign Evaluation Study
+                    </h2>
+                    <p class="section-paragraph">
+                      JBCP conducted a national survey on a random sample of
+                      1,000 Jordanian women and men aged 20 to 75 years old (70%
+                      women and 30% men) to evaluate the effectiveness of the
+                      JBCP October campaign. The survey found that the campaign
+                      successfully increased awareness regarding the importance
+                      of breast cancer early detection and encouraged people to
+                      go undergo screening. The results also showed that women
+                      are highly motivated by the messages received from the
+                      health care providers and that fear, coupled with a lack
+                      of symptoms, were the most prominent barriers to screening
+                      among females. These insights have allowed JBCP to
+                      continuously refine our interventions.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="wrapper"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      width="100%"
+      data-module="Demo Footer 5"
+      data-group="DEMO"
+      data-thumb="http://www.stampready.net/dashboard/editor/user_uploads/zip_uploads/2018/05/14/PBUy7twnqALfGrcM1sljJ8ia/resume/thumbnails/footer-5.jpg"
+    >
+      <tbody>
+        <tr>
+          <td
+            class="px-sm-16"
+            align="center"
+            bgcolor="#EEEEEE"
+            data-bgcolor="Outer"
+          >
+            <table
+              class="container"
+              cellpadding="0"
+              cellspacing="0"
+              role="presentation"
+              width="600"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    class="px-sm-8"
+                    bgcolor="#e20e6f"
+                    style="padding: 0 24px"
+                    data-bgcolor="Inner"
+                  >
+                    <table
+                      cellpadding="0"
+                      cellspacing="0"
+                      role="presentation"
+                      width="100%"
+                    >
+                      <tbody>
+                        <tr>
+                          <td
+                            class="col"
+                            align="center"
+                            width="100%"
+                            style="padding: 0 8px"
+                          >
+                            <div style="margin: 20px 0 0">
+                              <img
+                                src="https://lh3.googleusercontent.com/pw/AMWts8Df8YxrpcJFuqOf-r-DaGkYhL4rb7GvCixSDBWI_xeBtbMwFyMd7tTNxQYYJL7U9C0wHcbgqRHQ4CSkqXHCEF447TAUAaMhNNHkGpW8LSMs7iF6-1TmlbYesTk8MFboa1R0EjLKoWpEnw2lQIN3_4b7=w1240-h643-no?authuser=0"
+                                alt="Footer Logo"
+                                width="94"
+                                data-crop="false"
+                              />
+                            </div>
+                            <div class="spacer" style="line-height: 12px">
+                              ‌
+                            </div>
+                            <p style="color: #bfbfbf; margin: 0">
+                              Um Utheina, 57 Al Koufeh St. P.O. Box 35102,
+                              Amman, 11180 Jordan
+                            </p>
+                            <p style="color: #bfbfbf; margin: 0">
+                              Tel:
+                              <a
+                                style="
+                                  color: #bfbfbf;
+                                  text-decoration: underline;
+                                "
+                                href="tel:+ 962 6 55 30 800"
+                                >+ 962 6 55 30 800</a
+                              >
+                              - Fax:
+                              <a
+                                style="
+                                  color: #bfbfbf;
+                                  text-decoration: underline;
+                                "
+                                href="tel: + 962 6 55 30 870"
+                                >+ 962 6 55 30 870</a
+                              >
+                            </p>
+                            <p style="color: #bfbfbf; margin: 0"></p>
+                            <p style="color: #bfbfbf; margin: 0">
+                              <a
+                                style="
+                                  color: #bfbfbf;
+                                  text-decoration: underline;
+                                "
+                                href="https://www.jbcp.jo/"
+                                >www.jbcp.jo</a
+                              >
+                            </p>
+                            <div class="spacer" style="line-height: 16px">
+                              ‌
+                            </div>
+                            <p style="color: #bfbfbf; margin: 0">
+                              © Jordan Breast Cancer Program. All Rights
+                              Reserved.
+                            </p>
+                            <p
+                              style="color: #bfbfbf; margin: 0"
+                              data-color="Unsubscribe Text"
+                              data-size="Unsubscribe Text"
+                            >
+                              <a
+                                href="https://www.jbcp.jo/"
+                                style="
+                                  color: #bfbfbf;
+                                  text-decoration: underline;
+                                "
+                                >Unsubscribe</a
+                              >
+                              from our emails
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div
+                      class="spacer line-height-sm-0 py-sm-8"
+                      style="line-height: 24px"
+                    >
+                      ‌
+                    </div>
                   </td>
                 </tr>
               </tbody>
